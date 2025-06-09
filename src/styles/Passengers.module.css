@@ -1,0 +1,17 @@
+.passengersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 1rem 0;
+  color: var(--text-color);
+  font-family: var(--font-serif);
+  margin-top: auto;
+}
+.textContainer {
+  display: flex;
+  background-color: var(--bg-dark);
+  padding: 1rem;
+  padding-left: 2rem;
+  border-radius: 16px;
+}

@@ -1,0 +1,7133 @@
+{
+  "departureBookings": [
+    {
+      "id": "ff91",
+      "departureId": 6,
+      "trainId": 2,
+      "bookedSeats": [
+        {
+          "carId": 3,
+          "seatId": "E1"
+        }
+      ],
+      "bookingId": "booking-1742910582466"
+    },
+    {
+      "id": "4098",
+      "departureId": "4",
+      "trainId": "1",
+      "bookedSeats": [
+        {
+          "carId": 1,
+          "seatId": "J2"
+        }
+      ],
+      "bookingId": "booking-1742977875488"
+    },
+    {
+      "id": "6269",
+      "departureId": "1",
+      "trainId": "1",
+      "bookedSeats": [
+        {
+          "carId": 8,
+          "seatId": "K1"
+        }
+      ],
+      "bookingId": "booking-1742998860628"
+    },
+    {
+      "id": "ddfa",
+      "departureId": "1",
+      "trainId": "1",
+      "bookedSeats": [
+        {
+          "carId": 1,
+          "seatId": "A1"
+        }
+      ],
+      "bookingId": "booking-1742999915416"
+    },
+    {
+      "id": "0053",
+      "departureId": "6",
+      "trainId": "2",
+      "bookedSeats": [
+        {
+          "carId": 1,
+          "seatId": "E1"
+        }
+      ],
+      "bookingId": "booking-1743000666008"
+    },
+    {
+      "id": "dd70",
+      "departureId": "16",
+      "trainId": "1",
+      "bookedSeats": [
+        {
+          "carId": 1,
+          "seatId": "M1"
+        },
+        {
+          "carId": 1,
+          "seatId": "L2"
+        },
+        {
+          "carId": 1,
+          "seatId": "M4"
+        }
+      ],
+      "bookingId": "booking-1743001147410"
+    },
+    {
+      "id": "29ae",
+      "departureId": "1",
+      "trainId": "1",
+      "bookedSeats": [
+        {
+          "carId": 1,
+          "seatId": "L1"
+        }
+      ],
+      "bookingId": "booking-1743002578927"
+    }
+  ],
+  "bookedSeats": [
+    {
+      "id": "booking-1742910582486",
+      "trainId": 2,
+      "carId": 3,
+      "seatIds": [
+        "E1"
+      ],
+      "departureId": 6,
+      "departureDate": "2025-04-06",
+      "bookingTimestamp": "2025-03-25T13:49:42.486Z"
+    },
+    {
+      "id": "booking-1742977875502",
+      "trainId": "1",
+      "carId": 1,
+      "seatIds": [
+        "J2"
+      ],
+      "departureId": "4",
+      "departureDate": "2025-04-04",
+      "bookingTimestamp": "2025-03-26T08:31:15.502Z"
+    },
+    {
+      "id": "booking-1742998860703",
+      "trainId": "1",
+      "carId": 8,
+      "seatIds": [
+        "K1"
+      ],
+      "departureId": "1",
+      "departureDate": "2025-03-26",
+      "bookingTimestamp": "2025-03-26T14:21:00.703Z"
+    },
+    {
+      "id": "booking-1742999915436",
+      "trainId": "1",
+      "carId": 1,
+      "seatIds": [
+        "A1"
+      ],
+      "departureId": "1",
+      "departureDate": "2025-03-26",
+      "bookingTimestamp": "2025-03-26T14:38:35.436Z"
+    },
+    {
+      "id": "booking-1743000666028",
+      "trainId": "2",
+      "carId": 1,
+      "seatIds": [
+        "E1"
+      ],
+      "departureId": "6",
+      "departureDate": "2025-03-26",
+      "bookingTimestamp": "2025-03-26T14:51:06.028Z"
+    },
+    {
+      "id": "booking-1743001147423",
+      "trainId": "1",
+      "carId": 1,
+      "seatIds": [
+        "M1",
+        "L2",
+        "M4"
+      ],
+      "departureId": "16",
+      "departureDate": "2025-03-27",
+      "bookingTimestamp": "2025-03-26T14:59:07.423Z"
+    },
+    {
+      "id": "booking-1743002578941",
+      "trainId": "1",
+      "carId": 1,
+      "seatIds": [
+        "L1"
+      ],
+      "departureId": "1",
+      "departureDate": "2025-03-26",
+      "bookingTimestamp": "2025-03-26T15:22:58.941Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking-1742910582466",
+      "userId": "guest",
+      "departureId": 6,
+      "trainId": 2,
+      "carId": 3,
+      "seats": [
+        "E1"
+      ],
+      "totalPrice": 200,
+      "paymentMethod": "Swish",
+      "timestamp": "2025-03-25T13:49:42.466Z",
+      "status": "confirmed",
+      "passengers": [
+        {
+          "firstName": "Guest",
+          "lastName": "User",
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": "booking-1742977875488",
+      "userId": "0a42",
+      "departureId": "4",
+      "trainId": "1",
+      "carId": 1,
+      "seats": [
+        "J2"
+      ],
+      "totalPrice": 200,
+      "paymentMethod": "Swish",
+      "timestamp": "2025-03-26T08:31:15.488Z",
+      "status": "confirmed",
+      "passengers": [
+        {
+          "firstName": "fede",
+          "lastName": "misirocchi",
+          "email": "fede@misi.com"
+        }
+      ]
+    },
+    {
+      "id": "booking-1742998860628",
+      "userId": "guest",
+      "departureId": "1",
+      "trainId": "1",
+      "carId": 8,
+      "seats": [
+        "K1"
+      ],
+      "totalPrice": 200,
+      "paymentMethod": "Swish",
+      "timestamp": "2025-03-26T14:21:00.628Z",
+      "status": "confirmed",
+      "passengers": [
+        {
+          "firstName": "Guest",
+          "lastName": "User",
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": "booking-1742999915416",
+      "userId": "guest",
+      "departureId": "1",
+      "trainId": "1",
+      "carId": 1,
+      "seats": [
+        "A1"
+      ],
+      "totalPrice": 200,
+      "paymentMethod": "Swish",
+      "timestamp": "2025-03-26T14:38:35.416Z",
+      "status": "confirmed",
+      "passengers": [
+        {
+          "firstName": "Guest",
+          "lastName": "User",
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": "booking-1743000666008",
+      "userId": "guest",
+      "departureId": "6",
+      "trainId": "2",
+      "carId": 1,
+      "seats": [
+        "E1"
+      ],
+      "totalPrice": 200,
+      "paymentMethod": "Swish",
+      "timestamp": "2025-03-26T14:51:06.008Z",
+      "status": "confirmed",
+      "passengers": [
+        {
+          "firstName": "Guest",
+          "lastName": "User",
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": "booking-1743001147410",
+      "userId": "guest",
+      "departureId": "16",
+      "trainId": "1",
+      "carId": 1,
+      "seats": [
+        "M1",
+        "L2",
+        "M4"
+      ],
+      "totalPrice": 750,
+      "paymentMethod": "Swish",
+      "timestamp": "2025-03-26T14:59:07.410Z",
+      "status": "confirmed",
+      "passengers": [
+        {
+          "firstName": "Guest",
+          "lastName": "User",
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": "booking-1743002578927",
+      "userId": "guest",
+      "departureId": "1",
+      "trainId": "1",
+      "carId": 1,
+      "seats": [
+        "L1"
+      ],
+      "totalPrice": 200,
+      "paymentMethod": "Swish",
+      "timestamp": "2025-03-26T15:22:58.927Z",
+      "status": "confirmed",
+      "passengers": [
+        {
+          "firstName": "Guest",
+          "lastName": "User",
+          "email": ""
+        }
+      ]
+    }
+  ],
+  "cardInfo": [
+    {
+      "id": "1",
+      "heading": "Följ med oss på äventyr!",
+      "paragraf": "Du kan hitta fler spännande äventyr här!",
+      "imgs": [
+        {
+          "src": "src/assets/images/chinese-dragon.jpg",
+          "alt": "Kinesisk drake",
+          "text": "Följ med oss och fira in det Kinesiska nyåret!",
+          "page": {
+            "heading": "Fira Kinesiskt Nyår med Oss!",
+            "heading2": "En resa med drakens magi",
+            "paragraf": "Häng med på en oförglömlig tågresa för att fira det kinesiska nyåret! Stig ombord på vårt drakdekorerade tåg och upplev en färgsprakande resa med kinesisk musik, traditionella rätter och drakdans. Låt drakens kraft ta dig till ett nytt år fyllt av lycka och möjligheter!",
+            "offers": [
+              "Boka din plats och njut av rabatterade biljetter för en festlig resa med familj och vänner.",
+              "Fira det kinesiska nyåret på spåren – boka din plats nu!"
+            ]
+          }
+        },
+        {
+          "src": "src/assets/images/hp-dragon.jpg",
+          "alt": "Drake på tak som sprutar eld",
+          "text": "Åk på årets resa till Drakarnas näste i Ljubliana, Slovenien med oss!",
+          "page": {
+            "heading": "Åk på årets resa till drakarnas näste!",
+            "heading2": "I Ljubliana, Slovenien",
+            "paragraf": "Ta vårt tåg till de legendariska drakarnas näste. En resa du aldig glömmer till ett ställe du alltid kommer minnas! I det vackra Ljubliana i Slovenien",
+            "offers": [
+              "Har du inte alltid drömt om att se hur drakarna bor med dina egna ögon?",
+              "Boka din draktastiska resa med oss och se drakarnas näste för dig själv nu!"
+            ]
+          }
+        },
+        {
+          "src": "src/assets/images/redhead.jpg",
+          "alt": "Rödhårig tjej på gräsmatta",
+          "text": "Ta med familjen och res till nästa DragonCon med oss!",
+          "page": {
+            "heading": "Res till DragonCon med oss!",
+            "heading2": "Ta med dig familjen och följ med på detta fantastiska äventyr!",
+            "paragraf": "Med vårt draktåg kan du ta dig till DragonCon - en perfekt match för alla drakälskare! Åk med oss på en fantastisk resupplevelse och upplev mässan som aldrig förr!",
+            "offers": [
+              "Res med hela familjen och upplev DragonCon på ett nytt unikt sätt!",
+              "Boka din resa nu och säkra din storartade drak-upplevelse!"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "heading": "Nyheter",
+      "paragraf": "Prenumerera på vårt nyhetsbrev för att aldrig missa en nyhet!",
+      "imgs": [
+        {
+          "src": "src/assets/images/train-seat.jpg",
+          "alt": "Tågsäte vid fönster",
+          "text": "Nu kan ni även förbeställa er mat och dryck till era säten.",
+          "page": {
+            "heading": "Beställ er mat och dryck till era säten!",
+            "heading2": "Vi är glada att presentera nyheten att ni numera kan förbeställa er färdkost!",
+            "paragraf": "För en ännu mer enastående resa hos oss har vi nu sett till att ni kan beställa er mat hos oss till er plats! Bara stig på, slå er ner och njut!",
+            "offers": [
+              "Upplev vår nya matbeställning ombord!",
+              "Boka resa redan idag!"
+            ]
+          }
+        },
+        {
+          "src": "src/assets/images/earring.jpg",
+          "alt": "Guldigt drak-örhänge",
+          "text": "ÄNTLIGEN! Nu kan ni hitta vår nya merchandise i vår onlineshop!",
+          "page": {
+            "heading": "Nu kan ni hitta vår nya merch i vår onlineshop!",
+            "heading2": "Äntligen!",
+            "paragraf": "Missa inte våra fantastiska varor som passar perfekt till eran resa med oss!",
+            "offers": [
+              "Upplev en otrolig resa med vårt drak-tåg och ha drak-merch med er samtidigt!",
+              "För en ännu mer speciell resa, boka redan nu!"
+            ]
+          }
+        },
+        {
+          "src": "src/assets/images/train-on-cliff.jpg",
+          "alt": "Tåg åkande längs klippa",
+          "text": "Nu tar vi er även över gränserna!",
+          "page": {
+            "heading": "Nu tar vi er över gränserna!",
+            "heading2": "Åk ännu längre med oss nu",
+            "paragraf": "Vi tar er till nya höjder med våra nya resor bort från Sveriges landsgränser till ett flertal nya destinationer. Håll utkik efter nya evenemang dit ni kan åka med oss!",
+            "offers": [
+              "Ta er till ännu fler platser med oss idag",
+              "Boka era platser nu!"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "fd12",
+      "firstName": "Alex",
+      "lastName": "Raunert",
+      "age": "33",
+      "email": "alex@meh.com",
+      "password": "pwd123123",
+      "bookings": [
+        "booking-1742488333750"
+      ]
+    },
+    {
+      "id": "0a42",
+      "firstName": "fede",
+      "lastName": "misirocchi",
+      "age": "36",
+      "email": "fede@misi.com",
+      "password": "pwd123pwd123",
+      "bookings": [
+        "booking-1742977875488"
+      ]
+    }
+  ],
+  "departures": [
+    {
+      "id": "1",
+      "trainId": 1,
+      "from": "Malmö",
+      "to": "Göteborg",
+      "departureTime": "06:00",
+      "travelTime": "3h 30min",
+      "arrivalTime": "09:30",
+      "price": 200
+    },
+    {
+      "id": "2",
+      "trainId": 1,
+      "from": "Malmö",
+      "to": "Göteborg",
+      "departureTime": "08:00",
+      "travelTime": "3h 30min",
+      "arrivalTime": "11:30",
+      "price": 200
+    },
+    {
+      "id": "3",
+      "trainId": 2,
+      "from": "Malmö",
+      "to": "Göteborg",
+      "departureTime": "12:00",
+      "travelTime": "2h",
+      "arrivalTime": "14:00",
+      "price": 200
+    },
+    {
+      "id": "4",
+      "trainId": 1,
+      "from": "Malmö",
+      "to": "Göteborg",
+      "departureTime": "16:00",
+      "travelTime": "3h 30min",
+      "arrivalTime": "19:30",
+      "price": 200
+    },
+    {
+      "id": "5",
+      "trainId": 2,
+      "from": "Malmö",
+      "to": "Göteborg",
+      "departureTime": "18:00",
+      "travelTime": "2h",
+      "arrivalTime": "20:00",
+      "price": 200
+    },
+    {
+      "id": "6",
+      "trainId": 2,
+      "from": "Göteborg",
+      "to": "Malmö",
+      "departureTime": "06:00",
+      "travelTime": "2h",
+      "arrivalTime": "08:00",
+      "price": 200
+    },
+    {
+      "id": "7",
+      "trainId": 1,
+      "from": "Göteborg",
+      "to": "Malmö",
+      "departureTime": "08:00",
+      "travelTime": "3h 30min",
+      "arrivalTime": "11:30",
+      "price": 200
+    },
+    {
+      "id": "8",
+      "trainId": 1,
+      "from": "Göteborg",
+      "to": "Malmö",
+      "departureTime": "12:00",
+      "travelTime": "3h 30min",
+      "arrivalTime": "15:30",
+      "price": 200
+    },
+    {
+      "id": "9",
+      "trainId": 1,
+      "from": "Göteborg",
+      "to": "Malmö",
+      "departureTime": "16:00",
+      "travelTime": "3h 30min",
+      "arrivalTime": "19:30",
+      "price": 200
+    },
+    {
+      "id": "10",
+      "trainId": 1,
+      "from": "Göteborg",
+      "to": "Malmö",
+      "departureTime": "18:00",
+      "travelTime": "3h 30min",
+      "arrivalTime": "21:30",
+      "price": 200
+    },
+    {
+      "id": "11",
+      "trainId": 1,
+      "from": "Stockholm",
+      "to": "Malmö",
+      "departureTime": "06:00",
+      "travelTime": "4h 15min",
+      "arrivalTime": "10:15",
+      "price": 250
+    },
+    {
+      "id": "12",
+      "trainId": 1,
+      "from": "Stockholm",
+      "to": "Malmö",
+      "departureTime": "08:30",
+      "travelTime": "4h 15min",
+      "arrivalTime": "12:45",
+      "price": 250
+    },
+    {
+      "id": "13",
+      "trainId": 1,
+      "from": "Stockholm",
+      "to": "Malmö",
+      "departureTime": "12:00",
+      "travelTime": "4h 15min",
+      "arrivalTime": "16:15",
+      "price": 250
+    },
+    {
+      "id": "14",
+      "trainId": 1,
+      "from": "Stockholm",
+      "to": "Malmö",
+      "departureTime": "15:30",
+      "travelTime": "4h 15min",
+      "arrivalTime": "19:45",
+      "price": 250
+    },
+    {
+      "id": "15",
+      "trainId": 2,
+      "from": "Stockholm",
+      "to": "Malmö",
+      "departureTime": "18:00",
+      "travelTime": "2h 30min",
+      "arrivalTime": "20:30",
+      "price": 250
+    },
+    {
+      "id": "16",
+      "trainId": 1,
+      "from": "Malmö",
+      "to": "Stockholm",
+      "departureTime": "06:00",
+      "travelTime": "4h 15min",
+      "arrivalTime": "10:15",
+      "price": 250
+    },
+    {
+      "id": "17",
+      "trainId": 1,
+      "from": "Malmö",
+      "to": "Stockholm",
+      "departureTime": "08:30",
+      "travelTime": "4h 15min",
+      "arrivalTime": "12:45",
+      "price": 250
+    },
+    {
+      "id": "18",
+      "trainId": 2,
+      "from": "Malmö",
+      "to": "Stockholm",
+      "departureTime": "12:00",
+      "travelTime": "2h 30min",
+      "arrivalTime": "14:30",
+      "price": 250
+    },
+    {
+      "id": "19",
+      "trainId": 1,
+      "from": "Malmö",
+      "to": "Stockholm",
+      "departureTime": "15:30",
+      "travelTime": "4h 15min",
+      "arrivalTime": "19:45",
+      "price": 250
+    },
+    {
+      "id": "20",
+      "trainId": 1,
+      "from": "Malmö",
+      "to": "Stockholm",
+      "departureTime": "18:00",
+      "travelTime": "4h 15min",
+      "arrivalTime": "22:15",
+      "price": 250
+    },
+    {
+      "id": "21",
+      "trainId": 1,
+      "from": "Stockholm",
+      "to": "Göteborg",
+      "departureTime": "06:00",
+      "travelTime": "3h 15min",
+      "arrivalTime": "09:15",
+      "price": 230
+    },
+    {
+      "id": "22",
+      "trainId": 2,
+      "from": "Stockholm",
+      "to": "Göteborg",
+      "departureTime": "08:30",
+      "travelTime": "1h 30min",
+      "arrivalTime": "10:00",
+      "price": 230
+    },
+    {
+      "id": "23",
+      "trainId": 1,
+      "from": "Stockholm",
+      "to": "Göteborg",
+      "departureTime": "12:00",
+      "travelTime": "3h 15min",
+      "arrivalTime": "15:15",
+      "price": 230
+    },
+    {
+      "id": "24",
+      "trainId": 1,
+      "from": "Stockholm",
+      "to": "Göteborg",
+      "departureTime": "15:30",
+      "travelTime": "3h 15min",
+      "arrivalTime": "18:45",
+      "price": 230
+    },
+    {
+      "id": "25",
+      "trainId": 2,
+      "from": "Stockholm",
+      "to": "Göteborg",
+      "departureTime": "18:00",
+      "travelTime": "1h 30min",
+      "arrivalTime": "19:30",
+      "price": 230
+    },
+    {
+      "id": "26",
+      "trainId": 1,
+      "from": "Göteborg",
+      "to": "Stockholm",
+      "departureTime": "06:00",
+      "travelTime": "3h 15min",
+      "arrivalTime": "09:15",
+      "price": 230
+    },
+    {
+      "id": "27",
+      "trainId": 1,
+      "from": "Göteborg",
+      "to": "Stockholm",
+      "departureTime": "08:30",
+      "travelTime": "3h 15min",
+      "arrivalTime": "11:45",
+      "price": 230
+    },
+    {
+      "id": "28",
+      "trainId": 1,
+      "from": "Göteborg",
+      "to": "Stockholm",
+      "departureTime": "12:00",
+      "travelTime": "3h 15min",
+      "arrivalTime": "15:15",
+      "price": 230
+    },
+    {
+      "id": "29",
+      "trainId": 2,
+      "from": "Göteborg",
+      "to": "Stockholm",
+      "departureTime": "15:30",
+      "travelTime": "1h 30min",
+      "arrivalTime": "17:00",
+      "price": 230
+    },
+    {
+      "id": "30",
+      "trainId": 1,
+      "from": "Göteborg",
+      "to": "Stockholm",
+      "departureTime": "18:00",
+      "travelTime": "3h 15min",
+      "arrivalTime": "21:15",
+      "price": 230
+    }
+  ],
+  "trains": [
+    {
+      "id": "1",
+      "type": "X2000",
+      "cars": [
+        {
+          "id": 1,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 2,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 3,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 4,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 5,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 6,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 7,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 8,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 9,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 10,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 11,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "X3000",
+      "cars": [
+        {
+          "id": 1,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 2,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 3,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 4,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 5,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 6,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 7,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        },
+        {
+          "id": 8,
+          "columns": [
+            [
+              {
+                "id": "A1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "A2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "A4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "B1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "B2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "B4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "C1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "C2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "C4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "D1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "D2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "D4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "E1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "E2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "E4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "F1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "F2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "F4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "G1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "G2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "G4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "H1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "H2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "H4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "I1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "I2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "I4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "J1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "J2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "J4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "K1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "K2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "K4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "L1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "L2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "L4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "M1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "M2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "M4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "N1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "N2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "N4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ],
+            [
+              {
+                "id": "O1",
+                "isAvailable": true,
+                "position": "window"
+              },
+              {
+                "id": "O2",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O3",
+                "isAvailable": true,
+                "position": "aisle"
+              },
+              {
+                "id": "O4",
+                "isAvailable": true,
+                "position": "window"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input_container {
+  display: flex;
+  align-items: center;
+  background-color: var(--input);
+  padding: 0 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.input_container:focus-within {
+  border: 1.5px solid var(--el-hover);
+}
+
+.input_container input {
+  color: var(--bg-dark);
+  flex: 1;
+  padding: 0.75rem 0;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+/* Fix for Webkit browsers (Chrome, Safari, newer Edge) autofill background */
+.input_container input:-webkit-autofill,
+.input_container input:-webkit-autofill:hover,
+.input_container input:-webkit-autofill:focus,
+.input_container input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--input) inset !important;
+  -webkit-text-fill-color: black !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Firefox-specific autofill override */
+.input_container input:autofill {
+  background-color: var(--input);
+  color: black;
+}
+
+.input_icon {
+  color: var(--bg-dark);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.label {
+  font-family: var(--font-serif, serif);
+  color: var(--text-color);
+  padding: 0.5rem 0;
+  margin-left: 1rem;
+  display: block;
+}
+
+.md {
+  font-size: 0.9rem;
+}
+
+.lg {
+  font-size: 1.3rem;
+}

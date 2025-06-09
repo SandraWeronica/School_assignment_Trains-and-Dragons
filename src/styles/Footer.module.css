@@ -1,0 +1,18 @@
+.footerContainer {
+  background-color: var(--bg-30);
+  padding: 1rem;
+  color: var(--text-color);
+  font-family: var(--font-serif);
+  margin-top: auto;
+}
+
+.svg {
+  height: 24px;
+  width: 24px;
+  color: var(--text-color);
+  object-fit: none;
+}
+
+.adress {
+  height: 48px;
+}

@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+@theme {
+  --bg-60: #1e2d32;
+  --bg-30: #223b37;
+  --el-10: #7d3421;
+  --el-hover: #c34121;
+  --bg-dark: #131c1f;
+  --text-color: #f6f6f6;
+  --input: #fff7ec;
+
+  --font-serif: "Roboto", sans-serif;
+  --font-mono: "Roboto Mono", monospace;
+}
+
+:root {
+  --bg-60: #1e2d32;
+  --bg-30: #223b37;
+  --el-10: #7d3421;
+  --el-hover: #c34121;
+  --bg-dark: #131c1f;
+  --text-color-dark: #131c1f;
+  --text-color: #f6f6f6;
+  --input: #fff7ec;
+
+  --heading-font: "Raleway", sans-serif;
+  --font-serif: "Roboto", sans-serif;
+  --body-mono: "Roboto Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-serif);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: lighter;
+}
+
+.background {
+  background-color: var(--bg-60);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  min-height: 100vh;
+}
+
+main {
+  grid-area: main;
+  background-color: var(--bg-60);
+  color: var(--text-color);
+}
+nav {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+nav button img {
+  height: 27px;
+  width: 24px;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
